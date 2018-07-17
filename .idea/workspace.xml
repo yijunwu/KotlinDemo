@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e61cd5f-bb5e-47a0-a844-12f6878d1102" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/_02_properties/java/MyDelegatedProperties.java.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/_02_properties/kt/MyDelegatedProperties.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/_02_properties/kt/Observable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/_03_functions/java/Functions.java.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/_03_functions/kt/Functions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/_04_expressions/java/Expressions.java.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/_04_expressions/kt/Expressions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/_04_functional/java/Lambdas.java.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/_04_functional/kt/Lambdas.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/_05_coroutines/java/CallbackService.java.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/_05_coroutines/java/Coroutines.java.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/_05_coroutines/kt/Coroutines.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/_08_local_sealed_casts/java/Traversal.java.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/_08_local_sealed_casts/kt/Traversal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/KotlinDemo.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_02_properties/java/MyDelegatedProperties_javaKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_02_properties/kt/MyDelegatedPropertiesKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_02_properties/kt/ObservableKt$$special$$inlined$observable$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_02_properties/kt/ObservableKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_02_properties/kt/Prop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_03_functions/java/Functions_javaKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_03_functions/java/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_03_functions/kt/FunctionsKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_04_expressions/java/Example.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_04_expressions/java/Expressions_javaKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_04_expressions/kt/Example.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_04_expressions/kt/ExpressionsKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_04_functional/java/Lambdas_javaKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_04_functional/kt/LambdasKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_05_coroutines/java/Coroutines_javaKt$coroutines$1$jobs$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_05_coroutines/java/Coroutines_javaKt$coroutines$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_05_coroutines/java/Coroutines_javaKt$threads$threads$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_05_coroutines/java/Coroutines_javaKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_05_coroutines/kt/CoroutinesKt$main$1$jobs$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_05_coroutines/kt/CoroutinesKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_05_coroutines/kt/CoroutinesKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_08_local_sealed_casts/java/Container.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_08_local_sealed_casts/java/Element.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_08_local_sealed_casts/java/Text.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_08_local_sealed_casts/java/Traversal_javaKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_08_local_sealed_casts/kt/Container.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_08_local_sealed_casts/kt/Element.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_08_local_sealed_casts/kt/Text.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_08_local_sealed_casts/kt/TraversalKt$extractText$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/_08_local_sealed_casts/kt/TraversalKt.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Coroutines.java.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/_05_coroutines/java/Coroutines.java.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+              <folding>
+                <element signature="e#29#277#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Traversal.java.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/_08_local_sealed_casts/java/Traversal.java.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CallbackService.java.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/_05_coroutines/java/CallbackService.java.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="57" column="47" lean-forward="true" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+              <folding>
+                <element signature="e#29#134#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Gradle Kotlin DSL Build Script" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/java/_02_properties/Observable.kt" />
+        <option value="$PROJECT_DIR$/src/java/_02_properties/MyDelegatedProperties.kt" />
+        <option value="$PROJECT_DIR$/src/java/_03_functions/Functions.kt" />
+        <option value="$PROJECT_DIR$/src/java/_08_local_sealed_casts/java/Traversal.kt" />
+        <option value="$PROJECT_DIR$/src/java/_08_local_sealed_casts/kt/Traversal.kt" />
+        <option value="$PROJECT_DIR$/src/java/_04_expressions/java/Expressions.kt" />
+        <option value="$PROJECT_DIR$/src/java/_04_expressions/java/Expressions.java.kt" />
+        <option value="$PROJECT_DIR$/src/java/_04_expressions/kt/Expressions.kt" />
+        <option value="$PROJECT_DIR$/src/java/_04_functional/java/Lambdas.kt" />
+        <option value="$PROJECT_DIR$/src/java/_04_functional/kt/Lambdas.kt" />
+        <option value="$PROJECT_DIR$/src/java/_03_functions/java/Functions.java.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/java/_05_coroutines/java/Coroutines.kt" />
+        <option value="$PROJECT_DIR$/src/java/_05_coroutines/kt/Coroutines.kt" />
+        <option value="$PROJECT_DIR$/src/java/_08_local_sealed_casts/java/Traversal.java.kt" />
+        <option value="$PROJECT_DIR$/src/java/_05_coroutines/java/Coroutines.java.kt" />
+        <option value="$PROJECT_DIR$/src/java/_05_coroutines/java/CallbackService.java.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="684" />
+    <option name="y" value="55" />
+    <option name="width" value="1680" />
+    <option name="height" value="1010" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="KotlinDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KotlinDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KotlinDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KotlinDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KotlinDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KotlinDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KotlinDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KotlinDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="_05_coroutines" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KotlinDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KotlinDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="_05_coroutines" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KotlinDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KotlinDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="_05_coroutines" type="462c0819:PsiDirectoryNode" />
+              <item name="kt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KotlinDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KotlinDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="_08_local_sealed_casts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KotlinDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KotlinDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="_08_local_sealed_casts" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KotlinDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KotlinDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="_08_local_sealed_casts" type="462c0819:PsiDirectoryNode" />
+              <item name="kt" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\ProjectsNew\Kotlin\KotlinDemo" />
+      <recent name="D:\Dev\ProjectsNew\Kotlin\KotlinDemo\src\java\_03_functions\kt" />
+      <recent name="D:\Dev\ProjectsNew\Kotlin\KotlinDemo\src\java\_02_properties\kt" />
+      <recent name="D:\Dev\ProjectsNew\Kotlin\KotlinDemo\src\java\_04_expressions\java" />
+      <recent name="D:\Dev\ProjectsNew\Kotlin\KotlinDemo\src\java\_04_expressions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\ProjectsNew\Kotlin\KotlinDemo\src\java\_05_coroutines\kt" />
+      <recent name="D:\Dev\ProjectsNew\Kotlin\KotlinDemo\src\java\_04_functional\kt" />
+      <recent name="D:\Dev\ProjectsNew\Kotlin\KotlinDemo\src\java\_04_expressions\kt" />
+      <recent name="D:\Dev\ProjectsNew\Kotlin\KotlinDemo\src\java\_08_local_sealed_casts\java" />
+      <recent name="D:\Dev\ProjectsNew\Kotlin\KotlinDemo\src\java\_03_functions" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="_05_coroutines.java.Coroutines_javaKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="_05_coroutines.java.Coroutines_javaKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin._05_coroutines.java.Coroutines_javaKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e61cd5f-bb5e-47a0-a844-12f6878d1102" name="Default" comment="" />
+      <created>1531828608191</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531828608191</updated>
+      <workItem from="1531828620613" duration="7364000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7364000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="684" y="55" width="1680" height="1010" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" weight="0.3294621" />
+      <window_info anchor="right" id="Kotlin Bytecode" weight="0.32962963" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Designer" />
+      <window_info id="Project Explorer" weight="0.32962963" />
+      <window_info id="Job Explorer" />
+      <window_info anchor="bottom" id="Statistic" />
+      <window_info anchor="bottom" id="Console" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.32902467" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33607522" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Sequence" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="right" id="FAQ Robot" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21296297" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="Console" order="1" />
+      <window_info anchor="bottom" id="Run" order="10" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Project Explorer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Sequence" order="3" />
+      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="5" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
+      <window_info id="Job Explorer" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="1" />
+      <window_info anchor="right" id="FAQ Robot" order="2" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25246912" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/String.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/_03_functions/kt/Functions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Unit.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/_08_local_sealed_casts/kt/Traversal.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="61" lean-forward="true" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/_04_expressions/java/Expressions.java.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="61" lean-forward="true" selection-start-line="44" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/_04_expressions/kt/Expressions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/_04_functional/java/Lambdas.java.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/_04_functional/kt/Lambdas.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/_02_properties/kt/MyDelegatedProperties.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/_03_functions/java/Functions.java.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/_02_properties/kt/Observable.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/_02_properties/java/MyDelegatedProperties.java.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/_05_coroutines/kt/Coroutines.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/_08_local_sealed_casts/java/Traversal.java.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/_05_coroutines/java/Coroutines.java.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding>
+            <element signature="e#29#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/_05_coroutines/java/CallbackService.java.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="57" column="47" lean-forward="true" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+          <folding>
+            <element signature="e#29#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>KotlinDemo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>KotlinJavaRuntime</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
